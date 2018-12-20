@@ -1,0 +1,12 @@
+package site.laoc;
+
+public class Img {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String filePath = "G:\\sign.png";
+        String outPath = "G:\\tt.png";
+        ImageUtils.drawTextInImg(filePath, outPath);
+	}
+
+}

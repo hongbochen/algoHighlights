@@ -1,0 +1,12 @@
+package site.laoc;
+
+public class Img {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String filePath = "/opt/apache-tomcat-9.0.12-8082/webapps/sign.png";
+        String outPath = "./";
+        ImageUtils.drawTextInImg(filePath, outPath);
+	}
+
+}
